@@ -1,0 +1,47 @@
+# Magento 2 core
+/var/*
+!/var/.htaccess
+/vendor/*
+/generated/*
+!/generated/.htaccess
+/pub/media/*
+!/pub/media/.htaccess
+!/pub/media/wysiwyg
+!/pub/media/wysiwyg/*
+!/pub/media/customer
+!/pub/media/customer/*
+!/pub/media/downloadable
+!/pub/media/downloadable/*
+!/pub/media/favicon
+!/pub/media/favicon/*
+!/pub/media/import
+!/pub/media/import/*
+!/pub/media/theme
+!/pub/media/theme/*
+!/pub/media/theme_customization
+!/pub/media/theme_customization/*
+/pub/static/*
+!/pub/static/.htaccess
+/app/etc/env.php
+/app/etc/config.php
+auth.json
+.htaccess
+
+# Never allow real backup/data artifacts into this repo
+Magento Backup/
+*.sql
+*.sql.gz
+*.tar.gz
+
+# Env / secrets
+.env
+.env.*
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Node (for frontend tooling if used)
+node_modules/
+npm-debug.log
