@@ -25,7 +25,6 @@
 /app/etc/env.php
 /app/etc/config.php
 auth.json
-.htaccess
 
 # Never allow real backup/data artifacts into this repo
 Magento Backup/
